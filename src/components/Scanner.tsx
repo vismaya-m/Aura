@@ -72,6 +72,7 @@ export default function Scanner({ onScanComplete }: ScannerProps) {
     if (loss >= 4000) return "Walking Red Flag 🚩";
     return "Certified L Collector 📉";
   };
+  
 
   const currentScan = scanningPhases[currentPhase];
   const isDangerous = !currentScan.normal;
