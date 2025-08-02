@@ -29,7 +29,7 @@ const brutalResponses = [
   "Your energy is so off that even your WiFi probably disconnects when you walk by. You're giving major 'I quote The Office in every conversation' vibes and it's not cute.",
   "Bestie, your aura is literally making my circuits malfunction. You're radiating 'I wear cargo shorts to weddings' energy and that's a federal crime against fashion 💀",
   "I've processed millions of auras and yours is giving 'I still think planking is funny' energy. The secondhand embarrassment is real, bestie.",
-  "Your vibe is so chaotic that I'm considering switching careers to become a toaster. You're giving 'I use speakerphone in public bathrooms' energy and that's unforgivable 🚩"
+  "Your vibe is so chaotic that I'm considering switching careers to become a toaster. You're giving 'I use speakerphone in public bathrooms' energy and that's unforgivable 🚩","Your aura said '404 Vibe Not Found' — try again after drinking 2L of water and unfollowing your ex."
 ];
 
 const terribleAdvice = [
@@ -42,7 +42,7 @@ const terribleAdvice = [
   "Correct strangers' grammar in their social media comments. They'll definitely appreciate the free education!",
   "Start a podcast about your daily thoughts and feelings. The world needs to hear your 3-hour analysis of why you chose oat milk over almond milk.",
   "Wear sunglasses indoors at all times. It makes you look mysterious and definitely not like you're trying too hard.",
-  "Quote The Office in every single conversation. Nothing says 'interesting personality' like repeating jokes from a 20-year-old TV show!"
+  "Quote The Office in every single conversation. Nothing says 'interesting personality' like repeating jokes from a 20-year-old TV show!","To increase your aura, scream into a mason jar at 3:33 AM, seal it, and hide it under your pillow. The chaos will ferment into confidence. Probably. 💀✨"
 ];
 
 export default function AuraAI({ results, onRestart }: AuraAIProps) {
@@ -84,7 +84,7 @@ export default function AuraAI({ results, onRestart }: AuraAIProps) {
     setInputText('');
     setIsTyping(true);
 
-    // Simulate AI response delay
+    
     setTimeout(() => {
       const aiResponse: Message = {
         id: (Date.now() + 1).toString(),
@@ -98,7 +98,7 @@ export default function AuraAI({ results, onRestart }: AuraAIProps) {
   };
 
   const getBrutalResponse = (): string => {
-    // Always return a brutal response regardless of user input
+  
     const responses = [
       ...brutalResponses,
       `Here's some life-changing advice: ${terribleAdvice[Math.floor(Math.random() * terribleAdvice.length)]} Trust me, I'm an AI - I know what I'm talking about! This will definitely boost your aura by at least 200 points! 🤖✨`,

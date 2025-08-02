@@ -15,10 +15,10 @@ export default function LandingPage({ onStartScan }: LandingPageProps) {
               <Sparkles className="w-12 h-12 text-white animate-pulse" />
             </div>
             <h1 className="text-4xl font-bold text-white mb-2 bg-gradient-to-r from-blue-400 to-pink-400 bg-clip-text text-transparent">
-              Aura Scanner Pro
+              Aura Check.exe
             </h1>
             <p className="text-gray-300 text-sm">
-              Advanced AI-powered aura analysis
+              Advanced AI-powered aura analysis 
             </p>
           </div>
 
