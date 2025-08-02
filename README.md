@@ -36,45 +36,20 @@ For Software:
 
 # Screenshots (Add at least 3)
 
+![Screenshot1](1.png)
+Interface
+![Screenshot2](2.png)
+Face recognition
+![Screenshot3](3.png)
+analysis
+![Screenshot4](4.png)
+Chat with ai
 
-*Add caption explaining what this shows*
-
-![Screenshot2](Add screenshot 2 here with proper name)
-*Add caption explaining what this shows*
-
-![Screenshot3](Add screenshot 3 here with proper name)
-*Add caption explaining what this shows*
-
-# Diagrams
-![Workflow](Add your workflow/architecture diagram here)
-*Add caption explaining your workflow*
-
-For Hardware:
-
-# Schematic & Circuit
-![Circuit](Add your circuit diagram here)
-*Add caption explaining connections*
-
-![Schematic](Add your schematic diagram here)
-*Add caption explaining the schematic*
-
-# Build Photos
-![Components](Add photo of your components here)
-*List out all components shown*
-
-![Build](Add photos of build process here)
-*Explain the build steps*
-
-![Final](Add photo of final product here)
-*Explain the final build*
 
 ### Project Demo
 # Video
-[Add your demo video link here]
-*Explain what the video demonstrates*
-
-# Additional Demos
-[Add any extra demo materials/links]
+https://drive.google.com/drive/folders/1P14i7-9bL3wxa0RkBuCugZ-cr26TwLhy?usp=drive_link
+Explaination of our project
 
 ## Team Contributions
 - Vismaya Menon: Coding, idea contribution etc
