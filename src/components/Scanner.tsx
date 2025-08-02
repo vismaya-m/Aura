@@ -68,6 +68,7 @@ export default function Scanner({ onScanComplete }: ScannerProps) {
     if (loss >= 8000) return "Absolute Menace to Society 💀";
     if (loss >= 7000) return "Certified Vibe Criminal 🚓✨" ;
     if (loss >= 6000) return "Professional Disappointment 😭";
+    if (loss >= 5000) return "Main Character in a Flop Era 🎬😭"
     if (loss >= 4000) return "Walking Red Flag 🚩";
     return "Certified L Collector 📉";
   };
