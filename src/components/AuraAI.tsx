@@ -7,6 +7,8 @@ interface AuraAIProps {
   onRestart: () => void;
 }
 
+
+
 interface Message {
   id: string;
   text: string;
