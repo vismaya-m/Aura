@@ -66,6 +66,7 @@ export default function Scanner({ onScanComplete }: ScannerProps) {
 
   const getAuraLevel = (loss: number): string => {
     if (loss >= 8000) return "Absolute Menace to Society 💀";
+    if (loss >= 7000) return "Certified Vibe Criminal 🚓✨" ;
     if (loss >= 6000) return "Professional Disappointment 😭";
     if (loss >= 4000) return "Walking Red Flag 🚩";
     return "Certified L Collector 📉";
@@ -138,7 +139,7 @@ export default function Scanner({ onScanComplete }: ScannerProps) {
             </div>
           )}
         </div>
-      </div>
+      </div>     
     </div>
   );
 }
